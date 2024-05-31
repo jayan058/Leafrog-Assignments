@@ -1,0 +1,923 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.intro{
+    width:30%;
+    background-color: #F7F9FC ;
+    max-height: max-content;
+    display: flex;
+    flex-direction: column;
+}
+.accomplishments{
+    width: 70%;
+}
+#myimage{
+       width: 100%;
+}
+.top{
+    width: 100%;
+    gap: 32.32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.seperator{
+    height: 1.01px;
+    background-color:#E2E6EE ;
+    align-self: center;
+    width: 65%;
+    
+}
+.name{
+    display: flex;
+    flex-direction: column;
+    gap: 8.08px;
+   
+}
+.slogan{
+    display: flex;
+    flex-direction: column;
+    gap: 4.04px;
+    align-items: center;
+}
+#slogantext{
+    text-align: center;
+}
+
+
+#name{
+    font-family: "Outfit", sans-serif;
+    font-weight: 500;
+    font-size: 32.32px;
+    color: #2E2E48;
+    text-align: center;
+}
+
+#work{
+    font-family: "Outfit", sans-serif;
+    font-weight: 500;
+    font-size: 24.24px;
+    background: linear-gradient(90deg, #A478E8 0%, #516CF7 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+}
+
+#slogantext{
+    font-family: "Outfit", sans-serif;
+    font-weight: 500;
+    font-size: 18.18px;
+    color: #47516B; 
+    
+    
+    
+}
+
+
+#quoter{
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+    font-size: 16.16px;
+    color:#79819A;
+    
+   }
+
+.contactway{
+    display: flex;
+    gap: 4px;
+    padding-left: 70px;
+}   
+
+.indicontactway{
+    display: flex;
+    flex-direction: column;
+    gap: 4.04px;
+}
+
+.language{
+    display: flex;
+    gap: 7px;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    padding-top: 32.32px;
+    gap: 24.24px;
+    margin-bottom: 32.32px;
+    
+   
+}
+
+.indicontactwayvalue{
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+    font-size: 12.12px;
+    color: #79819A;
+}
+.indicontactvalue{
+    font-family: "DM Sans", sans-serif;
+    font-weight: 500;
+    font-size: 14.14px;
+    color: #47516B;
+}
+
+.special{
+    margin-bottom: 32.32px;
+}
+.title{
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+    font-size: 12.12px;
+    color: #79819A;
+   padding-left: 70px;
+}
+
+
+@media(max-width:938px){
+    .maineducation{
+        flex-direction: column;
+    }
+    .indiexperience {
+        flex-direction: column;
+        
+    }
+    .exactprojectlink{
+        font-size: 1vw;
+    }
+   
+    .contact{
+     
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        padding-left: 80px;
+        
+       
+    }
+    .contactway{
+        padding-left: 65px;
+        
+    }
+    .accomplishments{
+        width: 100vw;
+    }
+    .icon{
+        height: 30px;
+        width: 30px;
+    }
+    .contactway{
+        width: 30%;
+    }
+    .intro{
+        width: 100vw;
+        max-height: max-content;
+        
+        
+    }
+  
+   .contanior{
+    flex-direction: column;
+   }
+   .indiprojects{
+    flex-direction: column;
+   }
+   
+   .indiprojects{
+    flex-direction: column;
+    padding-left: 70px;
+   }
+   .project1{
+    width: 70%;
+    
+   }
+   .companydescription{
+    position: relative;
+    top: -90px;
+   }
+   .specialtext{
+    padding-left: 40px;
+   }
+   .specialexperience{
+    position: relative;
+    top: -40px;
+   }
+   .indieducation{
+    width: 40vw;
+    
+   }
+   #myeducation1,#myeducation2,#myeducation3{
+    width: 70%;
+    margin-left: 38px;
+   }
+  
+   
+    
+}
+
+@media(min-width:389px) and (max-width:502px) {
+    .project1{
+        width: 80%;
+        padding-right: 0px;
+    }
+    .indiprojects{
+        padding-left: 0px;
+        margin-left: 0px;
+    }
+   
+}
+
+@media(min-width:0px) and (max-width:388px) {
+    .project1{
+        width: 90%;
+        padding-right: 0px;
+    }
+    .indiprojects{
+        padding-left: 0px;
+        margin-left: 0px;
+    }
+   
+}
+
+@media(min-width:0px) and (max-width:431px) {
+    #myeducation{
+        margin-left: 10px;
+    }
+
+    
+ }
+
+ 
+@media(min-width:0px) and (max-width:566px) {
+   .contact{
+    flex-direction: column;
+    margin-left: 0px;
+    width: 50%;
+   }
+
+    
+ }
+
+ @media(min-width:0px) and (max-width:473px) {
+    .contact{
+     padding-left: 0px;
+    }
+ 
+     
+  }
+ @media(min-width:0px) and (max-width:407px) {
+    #jayan{
+        width: 20;
+    }
+    #jaya{
+        width: 60%;
+    }
+    #myowntext{
+        font-size: 2px;
+    }
+
+    
+ } 
+
+
+
+@media(min-width:0px) and (max-width:473px) {
+    .design{
+     margin-left: 0px;
+    }  
+    #myowndevelopement,#myowndesign{
+        margin-left: 1px;
+    } 
+
+    
+ }
+.country{
+    width: 32.32px;
+    height: 24.24px;
+}
+
+.language{
+    align-items: center;
+}
+.twitter{
+    border-radius: 100%;
+    
+    color: skyblue;
+    height: 35px;
+}
+
+.linkedin{
+    
+    background-color: #516CF7;
+}
+
+.specialicontwitter{
+    background-color: #00ACEE;
+    width: 38px;
+    height: 38px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.specialiconlinkedin{
+    background-color: #0077B5;
+    width: 38px;
+    height: 38px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.specialiconinsta {
+    width: 38px;
+    height: 38px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+}
+
+
+.specialicondribble{
+    width: 38px;
+    height: 38px;
+    border-radius: 100%;
+    background-color: #EA4C89;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+
+.contanior{
+    display: flex;
+}
+
+
+.secondintro{
+    border-left: 1.01px solid #E2E6EE;
+}
+
+
+.secondintro{
+  
+    margin-left: 32.32px;
+    margin-top: 64.65px;
+    margin-right: 48.48px;
+    margin-bottom: 19.34px;
+    display: flex;
+    flex-direction: column;
+    gap: 48.48px;
+
+}
+
+.timeline{
+    display: flex;
+    gap: 32.32px;
+    align-items: center;
+    position: relative;
+   top: -28px;   
+  
+}
+
+
+.specialimagespan {
+    z-index: 2;
+    height: 32.32px;
+    width: 32.32px;
+   
+ 
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: -16.62px;
+    opacity: 1;
+    top: 16.62px;
+     
+
+}
+
+.indiprojects{
+    display: flex;
+    margin-left: 64.64px;
+    gap: 8.08px;
+}
+
+.project1{
+    background-color:  #F7F9FC;
+    display: flex;
+    flex-direction: column;
+    gap: 16.16px;
+    border-top-left-radius: 8.08px;
+    border-bottom-right-radius: 8.08px;
+    gap: 16.16px;
+    padding: 24.24px 24.24px;
+}
+
+.projectdescription{
+    display: flex;
+    gap: 16.16px;
+}
+
+.aboutproject{
+    display: flex;
+    flex-direction: column;
+    gap: 4.04px;
+}
+
+.projectlink{
+    display: flex;
+    align-items: center;
+    gap: 12.12px;
+}
+
+.indiaccom{
+    font-family: "Outfit", sans-serif;
+    font-weight: 500;
+    font-size: 24.24px;
+    color: #2E2E48;
+}
+
+.projects{
+    display: flex;
+    flex-direction: column;
+    gap: 32.32px;
+}
+
+.projectimages{
+    height: 48.48px;
+    width: 48.48px;
+}
+.projecttopic{
+    font-family: "DM Sans", sans-serif;
+    font-weight: 500;
+    font-size: 16.16px;
+    color: #2E2E48;
+
+}
+.detaileddescription{
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+    font-size: 14.14px;
+    color: #79819A;
+
+}
+
+.exactprojectlink{
+    font-family: "Outfit", sans-serif;
+    font-weight: 600;
+    font-size:17px;
+    color: #516CF7;
+}
+
+.experiencetimelinecircle{
+    position: relative;
+    left: -8.5px;
+    
+    
+    
+}
+
+.experience{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.company{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8.08px;
+    position: relative;
+    margin-left: 16.16px;
+   
+    
+}
+
+.timeline{
+    display: flex;
+    gap: 4.04px;
+}
+
+.allaboutcompany{
+    display: flex;
+    gap: 16.16px;
+    position: relative;
+    top: -30px;
+}
+
+.date{
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+    font-size: 10.1px;
+    display: flex;
+    gap: 2px;
+    color: #47516B;
+}
+.address{
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+    font-size: 10.1px;
+    color: #79819A;
+}
+.companylogo{
+    height: 40.4px;
+    width: 40.4px;
+    border-radius: 10.1px;
+   
+}
+.actualpost{
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+    font-size: 12.12px;
+}
+.actualcompany{
+    font-family: "DM Sans", sans-serif;
+ 
+   font-size: 14.14px;
+}
+.mypost{
+    display: flex;
+    gap: 2px;
+    
+}
+.post{
+    display: flex;
+    flex-direction: column;
+    gap: 4.04px;
+}
+.companydescription{
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+    font-size: 10.1px;
+
+}
+.experiencetimelinecircle{
+    position: relative;
+    left: -24px;
+}
+
+.specialtext{
+    position: relative;
+    left: -40px;
+}
+
+
+
+
+
+
+
+
+
+.indiexperience {
+    border-left: 1.01px solid #F7F9FC;
+    margin-left: calc(61px + 8px);
+    display: flex;
+    gap: 90px;
+}
+
+
+
+
+
+.maineducation{
+    display: flex;
+    margin-left: 75px;
+    gap: 8.08px;
+    
+}
+
+.indieducation {
+    display: flex;
+    flex-direction: column;
+    gap: 8.08px;
+    background-color: #F7F9FC;
+    padding-left: 24.24px;
+    padding-right: 24.24px;
+    padding-top: 16.16px;
+    padding-bottom: 16.16px;
+    width: 250px;
+    border-radius: 8.08px 0px 0px 8.08px;
+}
+
+.row1{
+    display: flex;
+    align-items: center;
+    gap: 16.16px;
+
+}
+.eduname{
+    font-family: "DM Sans", sans-serif;
+    font-weight: 500;
+    font-size: 12.12px;
+   color: #2E2E48;
+}
+
+.row2{
+    font-family: "DM Sans", sans-serif;
+    font-weight: 500;
+    font-size: 14.14px;
+    color: #2E2E48;
+}
+
+.row3{
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+    font-size: 10.1px;
+    color: #79819A;
+}
+
+.design{
+    display: flex;
+    margin-left: 75px;
+    gap: 8.08px;
+}
+.developement{
+    display: flex;
+    margin-left: 75px;
+    gap: 8.08px;
+}
+.mydesign{
+    width: 113.13px;
+    height: 86.65px;
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 500;
+    font-size: 14.14px;
+    color: #2E2E48;
+    
+}
+
+.mydevelopement{
+    width: 113.13px;
+    height: 83.65px;
+
+}
+.first{
+    margin-right: 8.08px;
+    display: flex;
+    height: 83.65px;
+    width: 216.67px;
+    background-color: #F7F9FC;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8.08px;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 500;
+    font-size: 14.14px;
+    color: #9251F7;
+    border-radius: 8.08px 0px 0px 8.08px;
+}
+
+.second{
+    display: flex;
+    gap: 8.08px;
+}
+
+
+/* ul{
+    list-style: none;
+} */
+
+.firstseperator{
+    width: 1.01px;
+    height: 51.32px;
+    background-color: #E2E6EE;
+}
+
+.designpic{
+    height: 24.24px;
+    width: 24.24px;
+}
+.userexperience{
+    width: 128.28px;
+    background-color: #F7F9FC; 
+    height: 83.65px;
+    display: flex;
+    align-items: center;
+    padding-left: 16.16px;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 500;
+    font-size: 14.14px;
+    color: #9251F7;
+}
+
+.list{
+    width: 150.126px;
+    background-color: #F7F9FC; 
+    justify-content: center;
+    align-items: center;
+   display: flex;
+   font-family: "DM Sans", sans-serif;
+    font-weight: 500;
+    font-size: 14.14px;
+    color: #9251F7;
+
+}
+
+.designsystem{
+    font-family: "DM Sans", sans-serif;
+    font-weight: 500;
+    font-size: 14.14px;
+    color: #9251F7;
+    width: 82.32px;
+    background-color: #F7F9FC; 
+    padding: 23.32px 16.16px;
+    border-radius: 8.08px 0px 0px 8.08px;
+
+}
+
+.lastfinal{
+    display: flex;
+}
+
+.mydevelopementtext{
+    font-family: "DM Sans", sans-serif;
+    font-weight: 500;
+    font-size: 14.14px;
+    color: #2E2E48;
+}
+.firstdevelopement{
+    
+    display: flex;
+    gap: 8.08px;
+}
+.developementtext{
+    background-color: #F7F9FC;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 500;
+    font-size: 14.14px;
+    color: #516CF7;
+}
+
+.mefirst{
+    text-align: center;
+    height: 83.65px;
+    width: 68px;
+    border-radius: 8.08px 0px 0px 8.08px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+
+}
+
+.mesecond{
+
+  
+  
+    padding-left: 30px;
+   padding-top: 20px;
+   padding-right: 20px;
+}
+
+.seconddevelopement{
+      background-color: #F7F9FC;
+   display: flex;
+    width: 250px;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.thirddevelopement{
+    width: 195px;
+    height: 83.65px;
+    background-color: #F7F9FC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+
+}
+
+.secondseperator{
+    width:56.42px;
+    height: 1.01px;
+    background-color: #E2E6EE;
+}
+.last{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+@media(max-width:1300px){
+    .lastfinal{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .second{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .myfinaldevelopement{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .firstdevelopement{
+        display: flex;
+        flex-direction: column;
+    }
+    #uniqueskills{
+        width: 48vw;
+    }
+    #myskill1{
+        width: 50vw;
+    }
+    #myskill2{
+        width: 50vw;
+    }
+    #myskill3{
+        width: 50vw;
+    }
+    #myskill4{
+        width: 50vw;
+    }
+    #myskill5,#responsive2,#jayan,#jaya,#responsive1{
+        width: 50vw;
+    }
+
+
+}
+
+.myfinaldevelopement{
+    display: flex;
+    gap: 8.08px;
+}
+
+.wrapper{
+    margin-left: 64.64px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.row1div{
+    width: 168.69px;
+    height: 129.290px;
+    background-color: #F7F9FC;
+    border-radius: 8.08px 0px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 8.08px;
+
+   
+}
+
+.row1{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.toolname1{
+    font-family: "DM Sans", sans-serif;
+    font-weight: 500;
+    font-size: 14.14px;
+    color: #2E2E48;
+}
+.tooluses1{
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+    font-size: 10.1px;
+}
+
+.actualtool1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2.02px;
+}
+
+.row2div{
+    width: 133.33px;
+    height: 113.13px;
+    background-color: #F7F9FC;
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+   justify-content: center;    
+
+}
