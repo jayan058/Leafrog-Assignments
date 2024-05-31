@@ -847,13 +847,19 @@
         width: 50vw;
     }
     #myskill3{
-        width: 50vw;
+        width: 48vw;
     }
     #myskill4{
         width: 50vw;
     }
-    #myskill5,#responsive2,#jayan,#jaya,#responsive1{
+    #myskill5{
+        width: 47vw;
+    }
+    #responsive2,#jaya,#responsive1{
         width: 50vw;
+    }
+    #jayan{
+        width: 44vw;
     }
 
 
