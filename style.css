@@ -283,7 +283,7 @@
 
 
 
-@media(min-width:0px) and (max-width:473px) {
+@media(min-width:0px) and (max-width:535px) {
     .design{
      margin-left: 0px;
     }  
@@ -353,11 +353,7 @@
 
 }
 
-@media(min-width:939px) and (max){
-    #myowndevelopement{
-        
-    }
-}
+
 
 .contanior{
     display: flex;
@@ -561,6 +557,7 @@
     flex-direction: column;
     gap: 4.04px;
 }
+
 .companydescription{
     font-family: "DM Sans", sans-serif;
     font-weight: 400;
@@ -879,9 +876,9 @@
 .wrapper{
     margin-left: 64.64px;
     display: flex;
-   
-    flex-direction: column;
+   flex-wrap: wrap;
     gap: 10px;
+  
 }
 
 .row1div{
@@ -894,7 +891,7 @@
     align-items: center;
     justify-content: center;
     gap: 8.08px;
-
+    flex-wrap: wrap;
    
 }
 
@@ -930,6 +927,7 @@
     display: flex;
     flex-direction: column;
    align-items: center;
-   justify-content: center;    
+   justify-content: center;    flex-wrap: wrap;
 
 }
+
